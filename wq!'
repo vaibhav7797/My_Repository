@@ -1,0 +1,64 @@
+[33mcommit 4f67f73a5692da96447746c7ffd7a473e3b78f0b[m
+Author: vaibhav Pendhare <pendharevaibhav@gmail.com>
+Date:   Sat Jun 11 07:40:58 2022 +0000
+
+    adding new file
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3ca15cd[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,52 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Payment form</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="style.css">[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body> <div class="container">[m
+[32m+[m[32m    <form action="">[m
+[32m+[m[32m        <h1 class="main_heading">Payment form</h1>[m
+[32m+[m[32m        <h2>Contact Information</h2>[m
+[32m+[m[32m        <p>First Name:* <input type="text" name="name" placeholder="Type you Name here"> </p>[m
+[32m+[m[32m        <p>Last Name:* <input type="text" name="last name" placeholder="Your Last Name" > </p>[m
+[32m+[m[32m        <fieldset>[m
+[32m+[m[32m            <legend>Gender</legend>[m
+[32m+[m[32m        <p>[m
+[32m+[m[32m            male <input type="radio" name="gender" id="male">[m
+[32m+[m[32m            female <input type="radio" name="gender" id="female">[m
+[32m+[m[32m        </p>[m
+[32m+[m[32m    </fieldset>[m[41m [m
+[32m+[m[32m    <p> Address: <textarea name="address" id="address" cols="100" rows="8" placeholder="Adress"></textarea></Address></p>[m
+[32m+[m[32m    <p>Email:* <input type="email" name="email" required id="email:" placeholder="Email"> </p>[m
+[32m+[m[32m    <p>Pincode <input type="number" name="pincode" id="pincode" placeholder="422112"> </p>[m
+[32m+[m[32m    <h2>Payment Information</h2>[m
+[32m+[m[32m    <p>Card Type:*[m
+[32m+[m[32m        <select name="card_type" id="card_type">[m
+[32m+[m[32m            <option value="">--Select a card type--</option>[m
+[32m+[m[32m            <option value="visa">visa</option>[m
+[32m+[m[32m            <option value="MasterCard">MasterCard</option>[m
+[32m+[m[32m            <option value="RuPay">RuPay</option>[m
+[32m+[m[32m            <option value="SBI">SBI</option>[m
+[32m+[m
+[32m+[m[32m        </select>[m
+[32m+[m[32m    </p>[m
+[32m+[m[32m    <p>[m
+[32m+[m[32m        Card Number: <input type="number" name="card number" required id="card number" placeholder="1624365241859874">[m
+[32m+[m[32m    </p>[m
+[32m+[m[32m    <p>Expiration Date: <input type="date" name="expiration date" id="expiration date">[m
+[32m+[m[32m    </p>[m
+[32m+[m[32m    <p>[m
+[32m+[m[32m        CVV: <input type="password" name="cvv" required\ id="cvv" placeholder="123">[m
+[32m+[m[32m    </p>[m
+[32m+[m[32m    <input type="submit" value="PayNow">[m
+[32m+[m
+[32m+[m[32m    </form>[m
+[32m+[m[32m</div>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
